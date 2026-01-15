@@ -49,7 +49,9 @@ export const Navbar = () => {
         </div>
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm"> Contact Me</Button>
+          <a className="flex items-center" href="#contact">
+            <Button size="sm"> Contact Me</Button>
+          </a>
         </div>
         {/* Mobile Menu Button */}
         <button
