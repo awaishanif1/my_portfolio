@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Medan, Indonesia",
+    value: "Jakarta, Indonesia",
     href: "#",
   },
 ];
