@@ -5,6 +5,7 @@ import { Contact } from "@/sections/Contact";
 import { Projects } from "@/sections/Projects";
 import { Experience } from "@/sections/Experience";
 import { Testimonials } from "@/sections/Testimonials";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+      <Analytics />
     </div>
   );
 }
